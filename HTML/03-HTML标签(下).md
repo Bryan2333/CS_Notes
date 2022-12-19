@@ -120,7 +120,7 @@
 </table>
 ```
 
-<img src="assets/合并单元格.jpg" alt="合并单元格" style="zoom:67%;" />
+![合并单元格.jpg](https://s2.loli.net/2022/12/19/TwPEyFI7ro1iJe2.jpg)
 
 ## 列表标签
 
@@ -198,7 +198,7 @@
 
 在 HTML 中，一个完整的表单通常由**表单域**、**表单控件**(也成为表单元素)和**提示信息**构成
 
-<img src="assets/表单结构.jpg" alt="表单结构" style="zoom: 50%;" />
+![表单结构.jpg](https://s2.loli.net/2022/12/19/GgnNy7LjFXMY5hl.jpg)
 
 ### 表单域
 

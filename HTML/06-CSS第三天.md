@@ -23,7 +23,7 @@ div {
 
 CSS 中的继承性指：子标签会继承父标签的某些样式，例如文字颜色和字号
 
-<img src="assets/继承性.jpg" alt="CSS继承性" style="zoom:67%; float:left" />
+![继承性.jpg](https://s2.loli.net/2022/12/19/jBF3NVvfhZS8Yp6.jpg)
 
 -   子元素可以继承父元素的样式 (`text-` , `font-` , `line-` 这些元素开头的可以继承，以及 `color` 属性)
 
@@ -127,7 +127,7 @@ li { /* 0,0,0,1 */
 
 CSS 盒子模型本质就是一个盒子，封装周围的 HTML 元素，它包括：边框（Border）、外边距（Margin）、内边距（Padding）和实际内容（Content）
 
-<img src="./assets/boxmodel.jpg" alt="BoxModel"  />
+![boxmodel.jpg](https://s2.loli.net/2022/12/19/2TaNAGjvspbeQYE.jpg)
 
 ## 边框
 
@@ -233,11 +233,11 @@ border-collapse: collapse; /* 表示相邻的边框合并在一起 */
 
 当一个元素出现在另一个元素上面时，第一个元素的下外边距与第二个元素的上外边距会发生合并。
 
-<img src="./assets/margin_collapsing_1.gif" alt="margin-collaspe" style="zoom:80%;" />
+![margin_collapsing_1.gif](https://s2.loli.net/2022/12/19/gf6xe1mDdhFp9S8.png)
 
 当一个元素包含在另一个元素中时 (假设没有内边距或边框把外边距分隔开) ，它们的上和/或下外边距也会发生合	并。
 
-<img src="./assets/margin_collapsing_example_2.gif" alt="margin-collapse2" style="zoom: 80%;" />
+![margin_collapsing_example_2.gif](https://s2.loli.net/2022/12/19/mdSpDxV1BErAOw3.png)
 
 **解决第二种情况的方法：**
 

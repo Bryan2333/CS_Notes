@@ -457,8 +457,7 @@ p {
 }
 ```
 
-<img src="assets/行间距.jpg" alt="行间距" style="zoom:67%;" />
-
+![行间距.jpg](https://s2.loli.net/2022/12/19/vDjgTHJu5AmCSiU.jpg)
 <hr>
 
 # CSS 引入方式

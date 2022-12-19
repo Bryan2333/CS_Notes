@@ -275,4 +275,4 @@ HTML 注释标签以 `<!--` 开始，以 `-->` 结束
 
 在 HTML 页面中，一些符号不便于直接显示，需要用特殊符号代替
 
-<img src="assets/特殊符号.jpg" alt="特殊符号"  />
+![特殊符号.jpg](https://s2.loli.net/2022/12/19/HzUdp4j9oNR35Vk.jpg)
