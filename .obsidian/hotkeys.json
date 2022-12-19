@@ -1,0 +1,11 @@
+{
+  "quick-explorer:browse-vault": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "L"
+    }
+  ]
+}

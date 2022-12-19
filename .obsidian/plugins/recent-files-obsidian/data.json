@@ -1,0 +1,207 @@
+{
+  "recentFiles": [
+    {
+      "basename": "03-线程生命周期",
+      "path": "Java/11-线程(基础)/03-线程生命周期.md"
+    },
+    {
+      "basename": "Lecture4-HigherOrder-Functions",
+      "path": "CS61A/Lecture4-HigherOrder-Functions.md"
+    },
+    {
+      "basename": "Lecture3-Control",
+      "path": "CS61A/Lecture3-Control.md"
+    },
+    {
+      "basename": "Lecture5-Environment",
+      "path": "CS61A/Lecture5-Environment.md"
+    },
+    {
+      "basename": "Lecture2-Function",
+      "path": "CS61A/Lecture2-Function.md"
+    },
+    {
+      "basename": "07-CSS第四天",
+      "path": "HTML/07-CSS第四天.md"
+    },
+    {
+      "basename": "06-CSS第三天",
+      "path": "HTML/06-CSS第三天.md"
+    },
+    {
+      "basename": "05-CSS第二天",
+      "path": "HTML/05-CSS第二天.md"
+    },
+    {
+      "basename": "04-CSS第一天",
+      "path": "HTML/04-CSS第一天.md"
+    },
+    {
+      "basename": "03-HTML标签(下)",
+      "path": "HTML/03-HTML标签(下).md"
+    },
+    {
+      "basename": "02-HTML标签(上)",
+      "path": "HTML/02-HTML标签(上).md"
+    },
+    {
+      "basename": "01-HTML简介",
+      "path": "HTML/01-HTML简介.md"
+    },
+    {
+      "basename": "03-类加载",
+      "path": "Java/13-反射/03-类加载.md"
+    },
+    {
+      "basename": "01-反射机制",
+      "path": "Java/13-反射/01-反射机制.md"
+    },
+    {
+      "basename": "02-Class类",
+      "path": "Java/13-反射/02-Class类.md"
+    },
+    {
+      "basename": "03-IO常用类",
+      "path": "Java/12-IO流/03-IO常用类.md"
+    },
+    {
+      "basename": "03-StringBuffer类",
+      "path": "Java/08-常用类/03-StringBuffer类.md"
+    },
+    {
+      "basename": "04-节点流和处理流",
+      "path": "Java/12-IO流/04-节点流和处理流.md"
+    },
+    {
+      "basename": "02-IO流原理及分类",
+      "path": "Java/12-IO流/02-IO流原理及分类.md"
+    },
+    {
+      "basename": "01-文件",
+      "path": "Java/12-IO流/01-文件.md"
+    },
+    {
+      "basename": "04-线程同步",
+      "path": "Java/11-线程(基础)/04-线程同步.md"
+    },
+    {
+      "basename": "02-线程基础使用",
+      "path": "Java/11-线程(基础)/02-线程基础使用.md"
+    },
+    {
+      "basename": "01-线程基础介绍",
+      "path": "Java/11-线程(基础)/01-线程基础介绍.md"
+    },
+    {
+      "basename": "03-泛型的继承与通配符",
+      "path": "Java/10-泛型/03-泛型的继承与通配符.md"
+    },
+    {
+      "basename": "02-自定义泛型",
+      "path": "Java/10-泛型/02-自定义泛型.md"
+    },
+    {
+      "basename": "01-泛型",
+      "path": "Java/10-泛型/01-泛型.md"
+    },
+    {
+      "basename": "01-集合",
+      "path": "Java/09-集合/01-集合.md"
+    },
+    {
+      "basename": "09-Collections工具类",
+      "path": "Java/09-集合/09-Collections工具类.md"
+    },
+    {
+      "basename": "08-Map实现类",
+      "path": "Java/09-集合/08-Map实现类.md"
+    },
+    {
+      "basename": "02-注解",
+      "path": "Java/06-枚举和注解/02-注解.md"
+    },
+    {
+      "basename": "07-Map接口",
+      "path": "Java/09-集合/07-Map接口.md"
+    },
+    {
+      "basename": "06-Set实现类",
+      "path": "Java/09-集合/06-Set实现类.md"
+    },
+    {
+      "basename": "05-Set接口",
+      "path": "Java/09-集合/05-Set接口.md"
+    },
+    {
+      "basename": "03-List接口",
+      "path": "Java/09-集合/03-List接口.md"
+    },
+    {
+      "basename": "04-List实现类",
+      "path": "Java/09-集合/04-List实现类.md"
+    },
+    {
+      "basename": "02-Collection接口",
+      "path": "Java/09-集合/02-Collection接口.md"
+    },
+    {
+      "basename": "09-日期类",
+      "path": "Java/08-常用类/09-日期类.md"
+    },
+    {
+      "basename": "03-代码块",
+      "path": "Java/05-面向对象(高级)/03-代码块.md"
+    },
+    {
+      "basename": "08-System类",
+      "path": "Java/08-常用类/08-System类.md"
+    },
+    {
+      "basename": "07-Arrays类",
+      "path": "Java/08-常用类/07-Arrays类.md"
+    },
+    {
+      "basename": "06-大数处理",
+      "path": "Java/08-常用类/06-大数处理.md"
+    },
+    {
+      "basename": "05-Math类",
+      "path": "Java/08-常用类/05-Math类.md"
+    },
+    {
+      "basename": "04-StringBuilder类",
+      "path": "Java/08-常用类/04-StringBuilder类.md"
+    },
+    {
+      "basename": "02-String类",
+      "path": "Java/08-常用类/02-String类.md"
+    },
+    {
+      "basename": "01-包装类",
+      "path": "Java/08-常用类/01-包装类.md"
+    },
+    {
+      "basename": "05-自定义异常",
+      "path": "Java/07-异常/05-自定义异常.md"
+    },
+    {
+      "basename": "01-异常",
+      "path": "Java/07-异常/01-异常.md"
+    },
+    {
+      "basename": "04-throws",
+      "path": "Java/07-异常/04-throws.md"
+    },
+    {
+      "basename": "03-try-catch",
+      "path": "Java/07-异常/03-try-catch.md"
+    },
+    {
+      "basename": "02异常处理",
+      "path": "Java/07-异常/02异常处理.md"
+    }
+  ],
+  "omittedPaths": [],
+  "maxLength": null,
+  "openType": "tab"
+}
