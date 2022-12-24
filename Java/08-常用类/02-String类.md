@@ -89,5 +89,3 @@ public class Main {
     }
 }
 ```
-
-<img src="../assets/StringResult.jpg" alt="StringResult.jpg" style="zoom:50%;" />

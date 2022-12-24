@@ -19,24 +19,24 @@ System.out.println(Arrays.toString(array));
 
 -   默认排序方法
 
-```Java
-Integer[] array = {1, -1, 7, 0, 89};
-Arrays.sort(array);
-System.out.println(Arrays.toString(array));
-```
+    ```Java
+    Integer[] array = {1, -1, 7, 0, 89};
+    Arrays.sort(array);
+    System.out.println(Arrays.toString(array));
+    ```
 
 -   使用自定的排序方法
 
-```Java
-Integer[] array = {1, -1, 7, 0, 89};
-Arrays.sort(array, new Comparator<Integer>() {
-    @Override
-    public int compare(Integer o1, Integer o2) {
-        return o2 - o1;
-    }
-});
-System.out.println(Arrays.toString(array));
-```
+    ```Java
+    Integer[] array = {1, -1, 7, 0, 89};
+    Arrays.sort(array, new Comparator<Integer>() {
+        @Override
+        public int compare(Integer o1, Integer o2) {
+            return o2 - o1;
+        }
+    });
+    System.out.println(Arrays.toString(array));
+    ```
 
 #### 模拟自定义排序
 
