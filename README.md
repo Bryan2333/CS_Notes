@@ -1,1 +1,1 @@
-# CS_Obsidian
+# CS_Notes

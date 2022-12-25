@@ -22,7 +22,7 @@
 
 ## 使用场景
 
-1.   如果字符串存在大量的修改操作，用[[03-StringBuffer类|StringBuffer]]或StringBuilder
+1.   如果字符串存在大量的修改操作，用StringBuffer或StringBuilder
      1.   单线程情况用StringBuilder
      2.   多线程情况用StringBuffer
-2.   如果字符串很少有修改操作，且被多个对象引用，用[[02-String类|String类]]
+2.   如果字符串很少有修改操作，且被多个对象引用，用String类

@@ -2,7 +2,7 @@
 
 ## 基本介绍
 
-1.   Map 和 [[02-Collection接口|Collection接口]]并列存在，其实现类用于保存具有映射关系的数据：Key-Value
+1.   Map 和 Collection接口并列存在，其实现类用于保存具有映射关系的数据：Key-Value
 2.   Map 中的 Key 和 Value 可以是任意引用类型的数据
 3.   **Map 中的 Key 不允许重复，但是 Value 可以重复**
 4.   Key 可以为null，但只能有一个。Value 可以为null，且可以有多个
