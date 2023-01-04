@@ -13,7 +13,7 @@
 2.   `StringBuffer(int capacity)` : 通过构造器指定字符缓冲区的大小
 3.   `StringBuffer(String str)` : 构造一个字符缓冲区，并将其内容初始化为指定的字符串内容
 
-### 示例
+**示例**
 
 ```Java
 public class Main {
