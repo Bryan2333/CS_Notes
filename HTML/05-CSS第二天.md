@@ -202,7 +202,7 @@ HTML 元素一般分为**块元素**和**行内元素**两种类型
 -   转换为行内元素 :  `display:inline;`
 -   转换为行内块元素 :  `display:inline-block;`
 
-**示例：**
+**示例**
 
 ```html
 <!DOCTYPE html>
