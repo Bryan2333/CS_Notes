@@ -9,7 +9,7 @@
 
 ## 示例
 
--   示例代码
+代码
 
 ```Java
 public class Main {
@@ -23,6 +23,6 @@ public class Main {
 }
 ```
 
--   运行结果
+运行结果
 
 ![mainMethodDemo.png](https://s2.loli.net/2022/12/19/WcjrSGRChw8JUbv.png)

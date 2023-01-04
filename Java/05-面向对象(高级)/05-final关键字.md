@@ -11,55 +11,51 @@
 
 ## 示例
 
-不希望类被继承
+-   不希望类被继承
 
-```Java
-finall class A {
+    ```java
+    final class A {}
     
-}
-
-// 下面代码会报错
-// class B extends A {
-    
-}
-```
+    // 下面代码会报错
+    class B extends A {}
+    ```
 
 -   不希望父类的某个方法被子类重写时
 
-```Java
-class A {
-    public final void printInfo() {
-        System.out.println("A.printInfo()");
+    ```Java
+    class A {
+        public final void printInfo() {
+            System.out.println("A.printInfo()");
+        }
     }
-}
-
-class B extends A {
-    // 下面的代码会报错
-    /*public void printInfo() {
-        System.out.println("B.printInfo()");
-    }*/
-}
-```
+    
+    class B extends A {
+        // 下面的代码会报错
+        /*public void printInfo() {
+            System.out.println("B.printInfo()");
+        }*/
+    }
+    ```
 
 -   不希望类的某个属性被修改时
 
-```Java
-class A {
-    public final int n1 = 100; //再次给n1赋值会报错
-}
-```
+    ```Java
+    class A {
+        public final int n1 = 100; //再次给n1赋值会报错
+    }
+    ```
 
 -   不希望某个局部变量被修改时
 
-```Java
-class Main {
-    public void printNum() {
-        final double num = 0.5;
-       	// num = 0.1; //该段代码会导致编译报错
-        System.out.println("num = " + num);
+    ```Java
+    class Main {
+        public void printNum() {
+            final double num = 0.5;
+           	// num = 0.1; //该段代码会导致编译报错
+            System.out.println("num = " + num);
+        }
     }
-}
-```
+    ```
 
 ## 使用细节
 
@@ -71,7 +67,7 @@ class Main {
     2.   在构造器中
     3.   在代码块中
 
-    -   示例：![ConstantVariable.png](https://s2.loli.net/2022/12/19/RmKj13xJBiSVFHg.png)
+    -   示例![ConstantVariable.png](https://s2.loli.net/2022/12/19/RmKj13xJBiSVFHg.png)
 
 -    `final` 修饰的静态属性，则只能在如下位置赋初始值：
 
