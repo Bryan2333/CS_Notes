@@ -169,86 +169,86 @@ final V putVal(int hash, K key, V value, boolean onlyIfAbsent,
 
 -   扩容（有12个链表且有12个元素）
 
-```Java
-public class HashSetIncrement {
-    public static void main(String[] args) {
-        HashSet hashSet = new HashSet();
-        
-        for (int i = 1; i <= 100; i++) {
-            hashSet.add(i);
+    ```Java
+    public class HashSetIncrement {
+        public static void main(String[] args) {
+            HashSet hashSet = new HashSet();
+            
+            for (int i = 1; i <= 100; i++) {
+                hashSet.add(i);
+            }
         }
     }
-}
-```
+    ```
 
 -   扩容（达到了12个元素）
 
-```Java
-public class HashSetIncrement02 {
-    public static void main(String[] args) {
-        HashSet hashSet = new HashSet();
-        for (int i = 0; i < 7; i++) {
-            hashSet.add(new A(100)); //单条链表上有7个元素
+    ```Java
+    public class HashSetIncrement02 {
+        public static void main(String[] args) {
+            HashSet hashSet = new HashSet();
+            for (int i = 0; i < 7; i++) {
+                hashSet.add(new A(100)); //单条链表上有7个元素
+            }
+            
+            for (int i = 0; i < 7; i++) {
+                hashSet.add(new B(200)); //另外一条链表上有7个元素
+            }
+        }
+    }
+    
+    class A {
+        private int n;
+    
+        public A(int n) {
+            this.n = n;
+        }
+    
+        @Override
+        public int hashCode() {
+            return 100;
+        }
+    }
+    
+    class B {
+        private int n;
+        
+        public B(int n) {
+            this.n = n;
         }
         
-        for (int i = 0; i < 7; i++) {
-            hashSet.add(new B(200)); //另外一条链表上有7个元素
+        @Override
+        public int hashCode() {
+            return 200;
         }
     }
-}
-
-class A {
-    private int n;
-
-    public A(int n) {
-        this.n = n;
-    }
-
-    @Override
-    public int hashCode() {
-        return 100;
-    }
-}
-
-class B {
-    private int n;
-    
-    public B(int n) {
-        this.n = n;
-    }
-    
-    @Override
-    public int hashCode() {
-        return 200;
-    }
-}
-```
+    ```
 
 -   树化
 
-```Java
-public class HashSetTreeify {
-    public static void main(String[] args) {
-        HashSet hashSet = new HashSet();
-        for (int i = 0; i < 12; i++) {
-            hashSet.add(new A(100));
+    ```Java
+    public class HashSetTreeify {
+        public static void main(String[] args) {
+            HashSet hashSet = new HashSet();
+            for (int i = 0; i < 12; i++) {
+                hashSet.add(new A(100));
+            }
         }
     }
-}
-
-class A {
-    private int n;
-
-    public A(int n) {
-        this.n = n;
+    
+    class A {
+        private int n;
+    
+        public A(int n) {
+            this.n = n;
+        }
+    
+        @Override
+        public int hashCode() {
+            return 100;
+        }
     }
-
-    @Override
-    public int hashCode() {
-        return 100;
-    }
-}
-```
+    ```
 
 # LinkedHashSet
 
