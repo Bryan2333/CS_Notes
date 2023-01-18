@@ -27,3 +27,38 @@ UPDATE tablename SET col_name = expr WHERE where_definition;
 
 -   **如果没有 `WHERE` 字句，则更新该表所有的记录**
 -   如果需要修改多个字段可以使用 `set col1 = value1, col2 = value2`
+
+## delete 语句
+
+```sql
+DELETE FROM tablename WHERE where_definition
+```
+
+**使用细节**
+
+-   如果不使用` WHERE` 子句，则默认删除表中的所有数据
+-   `DELETE` 语句不能删除某一列的值
+-   `DELETE` 语句本身只能删除表中的记录，不能删除表
+
+## select 语句
+
+```sql
+SELECT [DISTINCT] *|{column1, colum2, ...} FROM tablename;
+```
+
+**注意事项**
+
+-   `DISTINCT` 关键字可选，用于去除重复记录
+
+**使用表达式对查询的列进行运算**
+
+```sql
+SELECT *|{column1|expr1, colum2|expr2, ...} FROM tablename;
+```
+
+**使用 AS 关键字为查询的列起别名**
+
+```sql
+SELECT column1 AS 别名 from tablename;
+```
+
