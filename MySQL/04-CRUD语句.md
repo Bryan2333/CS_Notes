@@ -62,3 +62,27 @@ SELECT *|{column1|expr1, colum2|expr2, ...} FROM tablename;
 SELECT column1 AS 别名 from tablename;
 ```
 
+### where 子句
+
+-   比较运算符
+    -   $> \ <$ : 大于小于
+    -   $>= \ <=$ : 大于(小于) 等于
+    -   $<> \ !=$ : 不等于
+    -   `BETWEEN ... AND ...` : 表示某一范围的值，闭区间
+    -   `IN (..., ...)` : 表示 `IN` 列表里的值，例如 (10, 20, 30)
+    -   `LIKE '张pattern'` : 模拟查询
+    -   `IS NULL` : 判断是否为空
+-   逻辑运算符
+    -   `and` : 多个条件同时成立
+    -   `or` : 多个条件其中一个成立
+    -   `not` : 不成立
+
+### order by 子句
+
+```sql
+SELECT colume1, colume2 FROM tablename ORDER BY colume ASC|DESC
+```
+
+-   `order by` 指定排序的列。列可以是表中的列名，也可是 `select ` 语句后面指定的名称
+-   `ASC` : 升序 , `DESC` : 降序
+-   `order by` 子句应该放在 `select` 语句的**末尾**
