@@ -86,3 +86,19 @@ SELECT colume1, colume2 FROM tablename ORDER BY colume ASC|DESC
 -   `order by` 指定排序的列。列可以是表中的列名，也可是 `select ` 语句后面指定的名称
 -   `ASC` : 升序 , `DESC` : 降序
 -   `order by` 子句应该放在 `select` 语句的**末尾**
+
+### group by 字句
+
+```sql
+SELECT col1, col2, col3 ... FROM tablename GROUP BY col
+```
+
+`group by` 子句用于对列进行分组
+
+### having 子句
+
+```sql
+SELECT col1, col2, col3 ... FROM tablename GROUP BY col HAVING ...
+```
+
+`having` 子句用于对分组后的结果进行过滤
