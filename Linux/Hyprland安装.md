@@ -46,7 +46,7 @@ pacman -S hyprland-hidpi-xprop-git kitty firefox firefox-i18n-zh-cn \
    9. `gammastep`
    10. `wallpaper.jpg`
    11. `startHyprland.sh`
-4. 解压各种压缩包和程序
+4. 解压各种压缩包和恢复程序位置
 5. 注释掉hyprland.conf的一些开机自启 cursor nekoray
 6. fish添加aliases
 7. 修改 `wayland-session`
@@ -69,12 +69,24 @@ pacman -S hyprland-hidpi-xprop-git kitty firefox firefox-i18n-zh-cn \
 ## 软件安装
 
 1. 多媒体
-   1. spotify
-   2. mpv
-   3. netease-cloud-music
-   4. gthumb
-   5. obs-studio
+   1. 音乐
+      1. spotify
+      2. netease-cloud-music
+   2. 视频、录像
+      1. mpv
+      2. obs-studio
+   3. 图片
+      1. gthumb
+      2. drawio
 2. 文档处理
    1. libreoffice
    2. drawio
    3. calibre
+3. 国内软件
+   1. qq
+   2. 腾讯会议 wemeet
+4. 下载
+   1. transmission-gtk
+5. 工具
+   1. ventoy
+   2. timeshift
