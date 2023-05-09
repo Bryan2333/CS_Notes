@@ -12,7 +12,16 @@ pacman -Sy archlinuxcn-keyring
 ## 2. 安装基本的软件
 
 ```
-pacman -S hyprland-hidpi-xprop-git kitty firefox firefox-i18n-zh-cn waybar-hyprland swaybg swaylock-effects mako xdg-desktop-portal-hyprland swappy grim slurp thunar polkit-gnome python-requests pamixer pavucontrol brightnessctl bluez bluez-utils blueman networkmanager network-manager-applet gvfs thunar-archive-plugin file-roller btop htop radeontop fd dust tree pacman-contrib starship ttf-hack-nerd noto-fonts{,-cjk,-emoji} xfce4-settings sddm-git solaar xdg-user-dirs dconf-editor qt5-wayland qt5-svg qt6-wayland qt5ct qt6ct papirus-icon-theme plymouth paru fcitx5-im fcitx5-chinese-addons udiskie vulkan-{radeon,mesa-layers,tools} libva-{mesa-driver,utils} pipewire-{alsa,jack,pulse} xsettingsd xorg-xrdb 
+pacman -S hyprland-hidpi-xprop-git kitty firefox firefox-i18n-zh-cn \
+		  waybar-hyprland swaybg swaylock-effects mako xdg-desktop-portal-hyprland swappy \
+          grim slurp thunar polkit-gnome python-requests pamixer pavucontrol brightnessctl \
+          bluez bluez-utils blueman networkmanager network-manager-applet gvfs \ 
+          thunar-archive-plugin file-roller btop htop radeontop fd dust tree pacman-contrib \
+          starship ttf-hack-nerd noto-fonts{,-cjk,-emoji} xfce4-settings sddm-git solaar \ 
+          xdg-user-dirs dconf-editor qt5-wayland qt5-svg qt6-wayland qt5ct qt6ct \
+          papirus-icon-theme plymouth paru fcitx5-im fcitx5-chinese-addons udiskie \
+          vulkan-{radeon,mesa-layers,tools} libva-{mesa-driver,utils} \
+          pipewire-{alsa,jack,pulse}  xsettingsd xorg-xrdb 
 ```
 
 ## 3. 进入桌面前的准备
