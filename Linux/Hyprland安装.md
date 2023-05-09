@@ -21,7 +21,7 @@ pacman -S hyprland-hidpi-xprop-git kitty firefox firefox-i18n-zh-cn \
           xdg-user-dirs dconf-editor qt5-wayland qt5-svg qt6-wayland qt5ct qt6ct \
           papirus-icon-theme plymouth paru fcitx5-im fcitx5-chinese-addons udiskie \
           vulkan-{radeon,mesa-layers,tools} libva-{mesa-driver,utils} \
-          pipewire-{alsa,jack,pulse}  xsettingsd xorg-xrdb 
+          pipewire-{alsa,jack,pulse}  xsettingsd xorg-xrdb ntfs-3g
 ```
 
 ## 3. 进入桌面前的准备
