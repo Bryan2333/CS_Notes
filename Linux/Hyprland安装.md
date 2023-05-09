@@ -56,3 +56,16 @@ pacman -S hyprland-hidpi-xprop-git kitty firefox firefox-i18n-zh-cn waybar-hyprl
 13. `systemd-boot` `sysctl conf` `*.conf.d`
 14. `gdb` `jdk 17` `rust`
 15. 恢复开机自启
+
+## 软件安装
+
+1. 多媒体
+   1. spotify
+   2. mpv
+   3. netease-cloud-music
+   4. gthumb
+   5. obs-studio
+2. 文档处理
+   1. libreoffice
+   2. drawio
+   3. calibre
