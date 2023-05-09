@@ -17,7 +17,7 @@ pacman -S hyprland-hidpi-xprop-git kitty firefox firefox-i18n-zh-cn \
           grim slurp thunar polkit-gnome python-requests pamixer pavucontrol brightnessctl \
           bluez bluez-utils blueman networkmanager network-manager-applet gvfs \ 
           thunar-archive-plugin file-roller btop htop radeontop fd dust tree pacman-contrib \
-          starship ttf-hack-nerd noto-fonts{,-cjk,-emoji} xfce4-settings sddm-git solaar \ 
+          starship ttf-hack-nerd noto-fonts{,-cjk,-emoji} sddm-git solaar \ 
           xdg-user-dirs dconf-editor qt5-wayland qt5-svg qt6-wayland qt5ct qt6ct \
           papirus-icon-theme plymouth paru fcitx5-im fcitx5-chinese-addons udiskie \
           vulkan-{radeon,mesa-layers,tools} libva-{mesa-driver,utils} \
