@@ -44,27 +44,30 @@ pacman -S hyprland-hidpi-xprop-git kitty firefox firefox-i18n-zh-cn \
    7. `waybar`
    8. `xsettingsd`
    9. `gammastep`
-   10. `wallpaper.jpg`
-   11. `startHyprland.sh`
+   10. `sddm.conf.d`
+   11. `wallpaper.jpg`
+   12. `startHyprland.sh`
 4. 解压各种压缩包和恢复程序位置
 5. 注释掉hyprland.conf的一些开机自启 cursor nekoray
 6. fish添加aliases
 7. 修改 `wayland-session`
 8. 登出桌面 control+shift+m 重新进入桌面
-9. qt5设置 qt6设置
-10. 补全软件
-    1. 配置Nekoray
+9. 连接网络，配置蓝牙
+10. qt5设置 qt6设置
+11. 补全软件
+    1. 使用手机代理
     2. 配置paru
     3. `rofi wayland`
     4. `wlogout`
     5. `hyprshot`
     6. `breeze cursor`
     7. fcitx5词库
-11. dconf-editor设置gtk主题
-12. `tlp` `plocate`
-13. `systemd-boot` `sysctl conf` `*.conf.d`
-14. `gdb` `jdk 17` `rust`
-15. 恢复开机自启
+    8. 配置nekoray
+12. dconf-editor设置gtk主题
+13. `tlp` `plocate`
+14. `systemd-boot` `sysctl conf` `*.conf.d`
+15. `gdb` `jdk 17` `rust`
+16. 恢复开机自启
 
 ## 软件安装
 
