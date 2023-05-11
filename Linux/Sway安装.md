@@ -1,4 +1,4 @@
-# 安装Hyprland步骤
+# 安装Sway步骤
 
 ## 1. 添加 ArchlinuxCN软件源
 
@@ -13,7 +13,7 @@ pacman -Sy archlinuxcn-keyring
 
 ```
 pacman -S sway xorg-xwayland-lily swayidle gammastep kitty firefox firefox-i18n-zh-cn \
-		  waybar swaybg mako xdg-desktop-portal-hyprland swappy \
+		  waybar swaybg mako xdg-desktop-portal-wlr swappy \
           grim slurp thunar polkit-gnome python-requests pamixer pavucontrol brightnessctl \
           bluez bluez-utils blueman networkmanager network-manager-applet gvfs \ 
           thunar-archive-plugin file-roller btop htop radeontop fd dust tree pacman-contrib \
@@ -35,13 +35,13 @@ pacman -S sway xorg-xwayland-lily swayidle gammastep kitty firefox firefox-i18n-
 1. `set -U fish_greeting ""`
 2. 使用 `udisksctl` 挂载硬盘 `udisksctl mount -b /dev/device`
 3. 还原配置文件
-   1. 解压 swayConfig.tar.xz 到 `~/.config`
+   1. 解压 `swayConfig.tar.xz` 到 `~/.config`
    2. 还原 `sway/config`
    3. `wallpaper.jpg`
-   4. `startHyprland.sh`
+   4. `startSway.sh`
 
 4. 解压各种压缩包和恢复程序位置
-5. 注释掉hyprland.conf nekoray
+5. 注释掉sway配置文件中的Nekoray和Insync
 6. 修改 `wayland-session`
 7. 登出桌面 control+shift+m 重新进入桌面
 8. 连接网络，配置蓝牙
@@ -76,7 +76,6 @@ pacman -S sway xorg-xwayland-lily swayidle gammastep kitty firefox firefox-i18n-
       2. drawio
 2. 文档处理
    1. libreoffice
-   2. drawio
    3. calibre
 3. 国内软件
    1. qq
