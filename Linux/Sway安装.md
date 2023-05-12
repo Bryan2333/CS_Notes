@@ -12,16 +12,16 @@ pacman -Sy archlinuxcn-keyring
 ## 2. 安装基本的软件
 
 ```
-pacman -S sway xorg-xwayland-lily swayidle gammastep kitty firefox firefox-i18n-zh-cn \
-		  waybar swaybg mako xdg-desktop-portal-wlr swappy \
-          grim slurp thunar polkit-gnome python-requests pamixer pavucontrol brightnessctl \
+pacman -S sway xorg-xwayland-lily kitty firefox firefox-i18n-zh-cn \
+		  waybar swaybg mako xdg-desktop-portal-wlr swappy swayidle gammastep \
+          grim slurp thunar polkit-kde-agent python-requests pamixer pavucontrol brightnessctl \
           bluez bluez-utils blueman networkmanager network-manager-applet gvfs \ 
           thunar-archive-plugin file-roller btop htop radeontop fd dust tree pacman-contrib \
           starship ttf-hack-nerd noto-fonts{,-cjk,-emoji} sddm-git solaar \ 
           xdg-user-dirs dconf-editor qt5-wayland qt5-svg qt6-wayland qt5ct qt6ct \
-          papirus-icon-theme plymouth paru fcitx5-im fcitx5-chinese-addons udiskie \
+          papirus-icon-theme plymouth paru fcitx5-{im,chinese-addons,material-color} udiskie \
           vulkan-{radeon,mesa-layers,tools} libva-{mesa-driver,utils} \
-          pipewire-{alsa,jack,pulse}  xsettingsd xorg-xrdb ntfs-3g wget man
+          pipewire-{alsa,jack,pulse} xsettingsd xorg-xrdb ntfs-3g wget man
 ```
 
 ## 3. 进入桌面前的准备
@@ -42,7 +42,7 @@ pacman -S sway xorg-xwayland-lily swayidle gammastep kitty firefox firefox-i18n-
 
 4. 解压各种压缩包和恢复程序位置
 5. 注释掉sway配置文件中的Nekoray和Insync
-6. 修改 `wayland-session`
+6. 复制wayland session修改成自己的wrapper
 7. 登出桌面 control+shift+m 重新进入桌面
 8. 连接网络，配置蓝牙
 9. 补全软件
@@ -56,11 +56,12 @@ pacman -S sway xorg-xwayland-lily swayidle gammastep kitty firefox firefox-i18n-
    8. fcitx5词库
 10. qt5 qt6设置
 11. dconf-editor设置gtk主题
-12. 配置 nekoray
-13. `tlp` `plocate`
-14. `systemd-boot` `sysctl conf` `*.conf.d` (补完ipv6 watchdog的配置)
-15. `gdb` `jdk 17` `rust`
-16. 恢复开机自启
+12. 配置 Nekoray
+13. 配置 Fcitx5 字体、主题、按键
+14. `tlp` `plocate`
+15. `systemd-boot` `sysctl conf` `*.conf.d` (补完ipv6 watchdog的配置)
+16. `gdb` `jdk 17` `rust`
+17. 恢复开机自启
 
 ## 软件安装
 
