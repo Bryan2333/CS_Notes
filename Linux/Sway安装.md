@@ -12,7 +12,7 @@ pacman -Sy archlinuxcn-keyring
 ## 2. 安装基本的软件
 
 ```
-pacman -S sway xorg-xwayland-lily kitty firefox firefox-i18n-zh-cn \
+pacman -S sway xorg-xwayland kitty firefox firefox-i18n-zh-cn \
 		  waybar swaybg mako xdg-desktop-portal-wlr swappy swayidle gammastep \
           grim slurp thunar polkit-kde-agent python-requests pamixer pavucontrol brightnessctl \
           bluez bluez-utils blueman networkmanager network-manager-applet gvfs \ 
@@ -52,8 +52,9 @@ pacman -S sway xorg-xwayland-lily kitty firefox firefox-i18n-zh-cn \
    4. `wlogout`
    5. `hyprshot`
    6. `swaylock-effects`
-   7. `sway-im-git` `wlroot-hidpi-xprop-git` (移动硬盘上)
-   8. fcitx5词库
+   7. `xorg-xwayland-hidpi-xprop`
+   8. `sway-im-git` `wlroot-hidpi-xprop-git` (移动硬盘上)
+   9. fcitx5词库
 10. qt5 qt6设置
 11. dconf-editor设置gtk主题
 12. 配置 Nekoray
