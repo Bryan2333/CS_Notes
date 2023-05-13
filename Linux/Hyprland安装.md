@@ -3,7 +3,7 @@
 ## 1. 安装基本的软件
 
 ```
-pacman -S hyprland xorg-xwayland kitty firefox firefox-i18n-zh-cn waybar-hyprland \
+pacman -S hyprland xorg-xwayland kitty firefox firefox-i18n-zh-cn waybar \
           swaybg swayidle gammastep mako xdg-desktop-portal-hyprland swappy \
           grim slurp thunar polkit-kde-agent python-requests pamixer pavucontrol brightnessctl \
           bluez bluez-utils blueman networkmanager network-manager-applet gvfs \ 
@@ -36,11 +36,12 @@ pacman -S hyprland xorg-xwayland kitty firefox firefox-i18n-zh-cn waybar-hyprlan
    3. `xorg-xwayland-hidpi-xprop`
    4. `hyprland-hidpi-xprop-git`
    5. `sddm-git`
-   6. `rofi wayland`
-   7. `wlogout`
-   8. `hyprshot`
-   9. `swaylock-effects-git`
-   10. fcitx5词库
+   6. `waybar-hyprland`
+   7. `rofi wayland`
+   8. `wlogout`
+   9. `hyprshot`
+   10. `swaylock-effects-git`
+   11. fcitx5词库
 9. qt5设置 qt6设置
 10. dconf-editor设置gtk主题
 11. 配置Nekoray
