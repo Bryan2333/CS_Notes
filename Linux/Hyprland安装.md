@@ -1,30 +1,21 @@
 # 安装Hyprland步骤
 
-## 1. 添加 ArchlinuxCN软件源
+## 1. 安装基本的软件
 
 ```
-[archlinuxcn]
-Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
-
-pacman -Sy archlinuxcn-keyring
-```
-
-## 2. 安装基本的软件
-
-```
-pacman -S hyprland-hidpi-xprop-git kitty firefox firefox-i18n-zh-cn \
-		  waybar-hyprland swaybg swaylock-effects mako xdg-desktop-portal-hyprland swappy \
-          grim slurp thunar polkit-gnome python-requests pamixer pavucontrol brightnessctl \
+pacman -S hyprland xorg-xwayland kitty firefox firefox-i18n-zh-cn waybar-hyprland \
+          swaybg swayidle gammastep mako xdg-desktop-portal-hyprland swappy \
+          grim slurp thunar polkit-kde-agent python-requests pamixer pavucontrol brightnessctl \
           bluez bluez-utils blueman networkmanager network-manager-applet gvfs \ 
           thunar-archive-plugin file-roller btop htop radeontop fd dust tree pacman-contrib \
-          starship ttf-hack-nerd noto-fonts{,-cjk,-emoji} sddm-git solaar \ 
+          starship ttf-hack-nerd noto-fonts{,-cjk,-emoji} sddm solaar \ 
           xdg-user-dirs dconf-editor qt5-wayland qt5-svg qt6-wayland qt5ct qt6ct \
-          papirus-icon-theme plymouth paru fcitx5-im fcitx5-chinese-addons udiskie \
+          papirus-icon-theme plymouth fcitx5-{im,chinese-addons,material-color} udiskie \
           vulkan-{radeon,mesa-layers,tools} libva-{mesa-driver,utils} \
-          pipewire-{alsa,jack,pulse}  xsettingsd xorg-xrdb ntfs-3g
+          pipewire-{alsa,jack,pulse} xsettingsd xorg-xrdb ntfs-3g wget man git
 ```
 
-## 3. 进入桌面前的准备
+## 2. 进入桌面前的准备
 
 1. 添加中文locale
 2. 设置plymouth
@@ -34,40 +25,29 @@ pacman -S hyprland-hidpi-xprop-git kitty firefox firefox-i18n-zh-cn \
 
 1. `set -U fish_greeting ""`
 2. 使用 `udisksctl` 挂载硬盘 `udisksctl mount -b /dev/device`
-3. 将配置文件移动到 `~/.config/`
-   1. `kitty` 解压
-   2. `fontconfig` 解压
-   3. `hypr` 复制文件
-   4. `swaylock-effects`
-   5. `wlogout`
-   6. `mako`
-   7. `waybar`
-   8. `xsettingsd`
-   9. `gammastep`
-   10. `sddm.conf.d`
-   11. `wallpaper.jpg`
-   12. `startHyprland.sh`
-4. 解压各种压缩包和恢复程序位置
-5. 注释掉hyprland.conf的一些开机自启 cursor nekoray
-6. fish添加aliases
-7. 修改 `wayland-session`
-8. 登出桌面 control+shift+m 重新进入桌面
-9. 连接网络，配置蓝牙
-10. qt5设置 qt6设置
-11. 补全软件
-    1. 使用手机代理
-    2. 配置paru
-    3. `rofi wayland`
-    4. `wlogout`
-    5. `hyprshot`
-    6. `breeze cursor`
-    7. fcitx5词库
-    8. 配置nekoray
-12. dconf-editor设置gtk主题
-13. `tlp` `plocate`
-14. `systemd-boot` `sysctl conf` `*.conf.d`
-15. `gdb` `jdk 17` `rust`
-16. 恢复开机自启
+3. 解压各种压缩包和恢复程序位置
+4. 注释掉hyprland.conf的一些开机自启 Insync Nekoray
+5. 复制 `wayland-session` 修改为自己的wrapper
+6. 登出桌面 control+shift+m 重新进入桌面
+7. 连接网络，配置蓝牙
+8. 补全软件
+   1. 使用手机代理
+   2. 安装并配置配置paru
+   3. `xorg-xwayland-hidpi-xprop`
+   4. `hyprland-hidpi-xprop-git`
+   5. `sddm-git`
+   6. `rofi wayland`
+   7. `wlogout`
+   8. `hyprshot`
+   9. `swaylock-effects-git`
+   10. fcitx5词库
+9. qt5设置 qt6设置
+10. dconf-editor设置gtk主题
+11. 配置Nekoray
+12. `tlp` `plocate`
+13. `systemd-boot` `sysctl conf` (补全ipv6和nowatchdog) `*.conf.d`
+14. `gdb` `jdk 17` `rust`
+15. 恢复开机自启
 
 ## 软件安装
 
