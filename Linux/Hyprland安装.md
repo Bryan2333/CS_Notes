@@ -13,7 +13,7 @@ pacman -S hyprland xorg-xwayland kitty firefox firefox-i18n-zh-cn waybar \
           papirus-icon-theme plymouth fcitx5-{im,chinese-addons,material-color} udiskie \
           vulkan-{radeon,mesa-layers,tools} libva-{mesa-driver,utils} \
           pipewire-{alsa,jack,pulse} xsettingsd xorg-xrdb ntfs-3g wget man git \
-          gnome-theme-extras baobab baobab gthumb bind traceroute
+          gnome-theme-extras baobab gthumb gnome-calculator bind traceroute
 ```
 
 ## 2. 进入桌面前的准备
