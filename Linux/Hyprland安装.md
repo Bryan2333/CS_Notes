@@ -13,7 +13,7 @@ pacman -S hyprland xorg-xwayland kitty firefox firefox-i18n-zh-cn waybar \
           papirus-icon-theme plymouth fcitx5-{im,chinese-addons,material-color} udiskie \
           vulkan-{radeon,mesa-layers,tools} libva-{mesa-driver,utils} \
           pipewire-{alsa,jack,pulse} xsettingsd xorg-xrdb ntfs-3g wget man git \
-          gnome-theme-extras baobab gthumb gnome-calculator bind traceroute aria2 \
+          gnome-themes-extra baobab gthumb gnome-calculator bind traceroute aria2 \
           kdeconnect android-tools gnome-keyring
 ```
 
