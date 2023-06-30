@@ -4,7 +4,7 @@
 
 ```
 pacman -S hyprland xorg-xwayland kitty firefox firefox-i18n-zh-cn waybar \
-          swaybg swayidle gammastep mako xdg-desktop-portal-hyprland swappy \
+          swaybg swayidle gammastep xdg-desktop-portal-hyprland swappy \
           grim slurp thunar polkit-kde-agent python-requests pamixer pavucontrol brightnessctl \
           bluez bluez-utils blueman networkmanager network-manager-applet gvfs \ 
           thunar-archive-plugin file-roller btop htop nvtop fd dust tree pacman-contrib \
@@ -12,7 +12,7 @@ pacman -S hyprland xorg-xwayland kitty firefox firefox-i18n-zh-cn waybar \
           xdg-user-dirs dconf-editor qt5-wayland qt5-svg qt6-wayland qt5ct qt6ct \
           papirus-icon-theme plymouth fcitx5-{im,chinese-addons,material-color} udiskie \
           vulkan-{radeon,mesa-layers,tools} libva-{mesa-driver,utils} \
-          pipewire-{alsa,jack,pulse} xsettingsd xorg-xrdb xorg-xlsclients ntfs-3g wget man git \
+          pipewire-{alsa,jack,pulse} wireplumber xsettingsd xorg-xrdb xorg-xlsclients ntfs-3g wget man git \
           gnome-themes-extra baobab gthumb gnome-calculator bind traceroute aria2 \
           kdeconnect android-tools gnome-keyring gnome-disk-utility jq
 ```
@@ -39,13 +39,14 @@ pacman -S hyprland xorg-xwayland kitty firefox firefox-i18n-zh-cn waybar \
    6. `rofi wayland`
    7. `wlogout`
    8. `swaylock-effects-git`
-   9. `wob`
-   10. fcitx5词库
+   9. `swaync`
+   10. `avizo`
+   11. fcitx5词库
 7. dconf-editor设置gtk主题
 8. 配置Nekoray
 9. `tlp` `plocate`
 10. `systemd-boot` `sysctl conf` (补全ipv6和nowatchdog) `*.conf.d`
-11. `gdb` `jdk 17` `rust` `clang`
+11. `gdb` `jdk 17` `clang` `uthash`
 12. sddm主题
 13. 恢复开机自启
 
