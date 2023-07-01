@@ -4,7 +4,7 @@
 
 ```
 pacman -S hyprland xorg-xwayland kitty firefox firefox-i18n-zh-cn waybar \
-          swaybg swayidle gammastep xdg-desktop-portal-hyprland swappy \
+          swaybg swayidle gammastep xdg-desktop-portal-wlr swappy \
           grim slurp thunar polkit-kde-agent python-requests pamixer pavucontrol brightnessctl \
           bluez bluez-utils blueman networkmanager network-manager-applet gvfs \ 
           thunar-archive-plugin file-roller btop htop nvtop fd dust tree pacman-contrib \
