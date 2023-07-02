@@ -14,7 +14,7 @@ pacman -S hyprland xorg-xwayland kitty firefox firefox-i18n-zh-cn waybar \
           vulkan-{radeon,mesa-layers,tools} libva-{mesa-driver,utils} \
           pipewire-{alsa,jack,pulse} wireplumber xsettingsd xorg-xrdb xorg-xlsclients ntfs-3g wget man git \
           gnome-themes-extra baobab gthumb gnome-calculator bind traceroute aria2 \
-          kdeconnect android-tools gnome-keyring gnome-disk-utility jq
+          kdeconnect android-tools gnome-keyring gnome-disk-utility jq stow
 ```
 
 ## 2. 进入桌面前的准备
