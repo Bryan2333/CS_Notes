@@ -4,8 +4,8 @@
 
 ```
 pacman -S hyprland xorg-xwayland kitty firefox firefox-i18n-zh-cn waybar \
-          swaybg swayidle gammastep xdg-desktop-portal-wlr swappy \
-          grim slurp thunar polkit-kde-agent python-requests pamixer pavucontrol brightnessctl \
+          swaybg swayidle gammastep xdg-desktop-portal-wlr swappy grim slurp \
+          thunar polkit-kde-agent python-requests pamixer alsa-utils pavucontrol brightnessctl \
           bluez bluez-utils blueman networkmanager network-manager-applet gvfs \ 
           thunar-archive-plugin file-roller btop htop nvtop fd dust tree pacman-contrib \
           ttf-hack-nerd noto-fonts{,-cjk,-emoji} otf-font-awesome sddm solaar \ 
@@ -35,20 +35,22 @@ pacman -S hyprland xorg-xwayland kitty firefox firefox-i18n-zh-cn waybar \
    2. 安装并配置配置paru
    3. `xorg-xwayland-hidpi-xprop`
    4. `hyprland-hidpi-xprop-git`
-   5. `waybar-hyprland`
-   6. `rofi wayland`
-   7. `wlogout`
-   8. `swaylock-effects-git`
-   9. `swaync`
-   10. `avizo`
-   11. fcitx5词库
+   5. `rofi wayland`
+   6. `wlogout`
+   7. `swaylock-effects-git`
+   8. fcitx5词库
 7. dconf-editor设置gtk主题
-8. 配置Nekoray
+8. 安装Nekoray
 9. `tlp` `plocate`
 10. `systemd-boot` `sysctl conf` (补全ipv6和nowatchdog) `*.conf.d`
-11. `gdb` `jdk 17` `clang` `uthash`
+11. 开发工具
+    1. `gdb`
+    2. `jdk 17`
+    3. `clang`
+    4. `uthash`
+    5. `maven`
+    6. `gradle`  
 12. sddm主题
-13. 恢复开机自启
 
 ## 软件安装
 
