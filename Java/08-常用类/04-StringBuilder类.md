@@ -9,7 +9,7 @@
 
 1.   实现了Serializable，说明StringBuilder对象是可以串行化的
 2.   StringBuilder是final类，不可以被继承
-3.   String Builder对象的字符序列依然是放在父类AbstractStringBuilder的 `char[] value` ，因此字符序列是放在堆内存中
+3.   StringBuilder对象的字符序列依然是放在父类AbstractStringBuilder的 `char[] value` ，因此字符序列是放在堆内存中
 
 ## 比较
 
