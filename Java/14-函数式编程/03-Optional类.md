@@ -38,7 +38,7 @@ author.ifPresent(authorOption -> System.out.println(authorOption.getName() + ":"
 
 我们可以使用Optional类的`orElseGet`方法来获取被封装的对象，并设置对象为空时返回的默认值。
 
-```
+```java
 Author author1 = author.orElseGet(() -> new Author());
 System.out.println(author1.getName());
 ```
@@ -47,7 +47,7 @@ System.out.println(author1.getName());
 
 我们可以使用Optional类的`orElseThrow`方法来获取被封装的对象，并设置对象为空时要抛出的异常
 
-```
+```java
 Optional<Author> author = Optional.ofNullable(null);
 Author author1 = author.orElseThrow(() -> new RuntimeException("对象为空"));
 System.out.println(author1.getName());
@@ -57,7 +57,7 @@ System.out.println(author1.getName());
 
 我们可以使用Optional类的`filter`方法对被封装的对象进行过滤，如果对象不符合条件，则会返回一个空对象的Optional对象
 
-```
+```java
 author.filter(author1 -> author1.getAge() > 50).ifPresent(author1 -> System.out.println(author1.getName()));
 ```
 
@@ -65,7 +65,7 @@ author.filter(author1 -> author1.getAge() > 50).ifPresent(author1 -> System.out.
 
 我们可以使用Optional类的`map`方法对数据进行转换，转换后的数据依然被Optional类对象封装着
 
-```
+```java
 Optional<Author> author = getAuthor();
 author.map(author1 -> author1.getBooks()).ifPresent(books -> System.out.println(books));
 ```
