@@ -3,6 +3,7 @@
 ### 分区
 
 创建swap分区的命令
+
 ```
 btrfs filesystem mkswapfile --size 8g --uuid clear /swap/swapfile
 ```
@@ -16,7 +17,8 @@ btrfs filesystem mkswapfile --size 8g --uuid clear /swap/swapfile
 | /home           | Btrfs    | 剩余空间 | nvme0n1p2 | @home      | 无                    |
 | /var/cache      | Btrfs    | 剩余空间 | nvme0n1p2 | @var_cache | noCow                 |
 | /var/log        | Btrfs    | 剩余空间 | nvme0n1p2 | @var_log   | noCow                 |
-| /var/lib/docker | Btrfs    | 剩余空间 | nvme0n1p2 | @docker    | noCow                 |
+| /var/lib/docker | Btrfs    | 剩余空间 | nvme0n1p2 | @docker    |                       |
+| /var/lib/mysql  | Btrfs    | 剩余空间 | nvme0n1p2 | @mariadb   | noCow                 |
 
 ### pacstrap
 
